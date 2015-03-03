@@ -352,7 +352,6 @@ class MiniFieldStorage:
         """Constructor from field name and value."""
         self.name = name
         self.value = value
-        # self.file = StringIO(value)
 
     def __repr__(self):
         """Return printable representation."""
